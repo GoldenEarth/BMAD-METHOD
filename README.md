@@ -318,7 +318,7 @@ The generated XML file contains your project's text-based source files in a stru
 
 - CLI options
   
-- CLI 选项
+  CLI 选项
   - `-i, --input <path>`: Directory to flatten. Default: current working directory or auto-detected project root when run interactively.
 
     `-i, --input <path>`：要扁平化的目录。默认值：当前工作目录或在交互模式下运行时自动检测到的项目根目录。
@@ -328,7 +328,7 @@ The generated XML file contains your project's text-based source files in a stru
 
 - Interactive mode
   
-- 交互模式
+  交互模式
   - If you do not pass `--input` and `--output` and the terminal is interactive (TTY), the tool will attempt to detect your project root (by looking for markers like `.git`, `package.json`, etc.) and prompt you to confirm or override the paths.
   
     如果您不传递 `--input` 和 `--output` 并且终端是交互式的（TTY），该工具将尝试检测您的项目根目录（通过查找像 `.git`、`package.json` 等标记）并提示您确认或覆盖路径。
@@ -338,7 +338,7 @@ The generated XML file contains your project's text-based source files in a stru
 
 - File discovery and ignoring
   
-- 文件发现和忽略
+  文件发现和忽略
   - Uses `git ls-files` when inside a git repository for speed and correctness; otherwise falls back to a glob-based scan.
 
     在 git 存储库中时使用 `git ls-files` 以提高速度和正确性；否则回退到基于 glob 的扫描。
@@ -348,13 +348,13 @@ The generated XML file contains your project's text-based source files in a stru
 
 - Binary handling
   
-- 二进制处理
+  二进制处理
   - Binary files are detected and excluded from the XML content. They are counted in the final summary but not embedded in the output.
     检测并从 XML 内容中排除二进制文件。它们在最终摘要中计数，但未嵌入输出中。
 
 - XML format and safety
   
-- XML 格式和安全性
+  XML 格式和安全性
   - UTF-8 encoded file with root element `<files>`.
 
     根元素为 `<files>` 的 UTF-8 编码文件。
@@ -370,7 +370,7 @@ The generated XML file contains your project's text-based source files in a stru
 
 - Performance
   
-- 性能
+  性能
   - Concurrency is selected automatically based on your CPU and workload size. No configuration required.
 
     并发性根据您的 CPU 和工作负载大小自动选择。无需配置。
@@ -433,7 +433,7 @@ The generated XML file contains your project's text-based source files in a stru
 
 📋 **[Read CONTRIBUTING.md](CONTRIBUTING.md)** - Complete guide to contributing, including guidelines, process, and requirements
 
-📋 **[阅读 CONTRIBUTING.md](CONTRIBUTING.md)** - 完整的贡献指南，包括指南、流程和要求
+📋 **[阅读 CONTRIBUTING.md](CONTRIBUTING.EN.CN.md)** - 完整的贡献指南，包括指南、流程和要求
 
 ## License
 ## 许可证
@@ -452,4 +452,5 @@ BMAD™ 和 BMAD-METHOD™ 是 BMad Code, LLC 的商标。保留所有权利。
 [![Contributors](https://contrib.rocks/image?repo=bmadcode/bmad-method)](https://github.com/bmadcode/bmad-method/graphs/contributors)
 
 <sub>Built with ❤️ for the AI-assisted development community</sub>
+
 <sub>为 AI 辅助开发社区 ❤️ 而构建</sub>

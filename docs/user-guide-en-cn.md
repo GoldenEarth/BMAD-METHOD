@@ -30,29 +30,29 @@ Before development begins, BMad follows a structured planning workflow that's id
 ```mermaid
 graph TD
     A["Start: Project Idea <br> 开始：项目构想"] --> B{"Optional: Analyst Research <br> 可选：分析师研究"}
-    B -->|Yes / 是| C["Analyst: Brainstorming (Optional) <br> 分析师：头脑风暴（可选）"]
-    B -->|No / 否| G{"Project Brief Available? <br> 项目简报是否可用？"}
+    B -->|Yes <br> 是| C["Analyst: Brainstorming (Optional) <br> 分析师：头脑风暴（可选）"]
+    B -->|No <br> 否| G{"Project Brief Available? <br> 项目简报是否可用？"}
     C --> C2["Analyst: Market Research (Optional) <br> 分析师：市场研究（可选）"]
     C2 --> C3["Analyst: Competitor Analysis (Optional) <br> 分析师：竞争对手分析（可选）"]
     C3 --> D["Analyst: Create Project Brief <br> 分析师：创建项目简报"]
     D --> G
-    G -->|Yes / 是| E["PM: Create PRD from Brief (Fast Track) <br> PM：从简报创建PRD（快速通道）"]
-    G -->|No / 否| E2["PM: Interactive PRD Creation (More Questions) <br> PM：交互式PRD创建（更多问题）"]
+    G -->|Yes <br> 是| E["PM: Create PRD from Brief (Fast Track) <br> PM：从简报创建PRD（快速通道）"]
+    G -->|No <br> 否| E2["PM: Interactive PRD Creation (More Questions) <br> PM：交互式PRD创建（更多问题）"]
     E --> F["PRD Created with FRs, NFRs, Epics & Stories <br> PRD已创建，包含功能需求、非功能需求、史诗和故事"]
     E2 --> F
     F --> F2{"UX Required? <br> 需要用户体验设计吗？"}
-    F2 -->|Yes / 是| F3["UX Expert: Create Front End Spec <br> UX专家：创建前端规范"]
-    F2 -->|No / 否| H["Architect: Create Architecture from PRD <br> 架构师：从PRD创建架构"]
+    F2 -->|Yes <br> 是| F3["UX Expert: Create Front End Spec <br> UX专家：创建前端规范"]
+    F2 -->|No <br> 否| H["Architect: Create Architecture from PRD <br> 架构师：从PRD创建架构"]
     F3 --> F4["UX Expert: Generate UI Prompt for Lovable/V0 (Optional) <br> UX专家：为Lovable/V0版本生成UI提示（可选）"]
     F4 --> H2["Architect: Create Architecture from PRD + UX Spec <br> 架构师：从PRD和UX规范创建架构"]
     H --> Q{"Early Test Strategy? (Optional) <br> 早期测试策略？（可选）"}
     H2 --> Q
-    Q -->|Yes / 是| R["QA: Early Test Architecture Input on High-Risk Areas <br> QA：对高风险领域提供早期测试架构输入"]
-    Q -->|No / 否| I
+    Q -->|Yes <br> 是| R["QA: Early Test Architecture Input on High-Risk Areas <br> QA：对高风险领域提供早期测试架构输入"]
+    Q -->|No <br> 否| I
     R --> I["PO: Run Master Checklist <br> PO：运行主清单"]
     I --> J{"Documents Aligned? <br> 文档是否对齐？"}
-    J -->|Yes / 是| K["Planning Complete <br> 规划完成"]
-    J -->|No / 否| L["PO: Update Epics & Stories <br> PO：更新史诗和故事"]
+    J -->|Yes <br> 是| K["Planning Complete <br> 规划完成"]
+    J -->|No <br> 否| L["PO: Update Epics & Stories <br> PO：更新史诗和故事"]
     L --> M["Update PRD/Architecture as needed <br> 按需更新PRD/架构"]
     M --> I
     K --> N["📁 Switch to IDE (If in a Web Agent Platform) <br> 切换到IDE（如果在Web代理平台中）"]
@@ -129,8 +129,8 @@ graph TD
     A["Development Phase Start <br> 开发阶段开始"] --> B["SM: Reviews Previous Story Dev/QA Notes <br> SM：审查之前的故事开发/QA记录"]
     B --> B2["SM: Drafts Next Story from Sharded Epic + Architecture <br> SM：从分片史诗和架构草拟下一个故事"]
     B2 --> S{"High-Risk Story? (Optional) <br> 高风险故事？（可选）"}
-    S -->|Yes / 是| T["QA: *risk + *design on Draft Story <br> QA：对草稿故事进行*风险+*设计"]
-    S -->|No / 否| B3
+    S -->|Yes <br> 是| T["QA: *risk + *design on Draft Story <br> QA：对草稿故事进行*风险+*设计"]
+    S -->|No <br> 否| B3
     T --> U["Test Strategy & Risk Profile Created <br> 测试策略和风险画像已创建"]
     U --> B3{"PO: Validate Story Draft (Optional) <br> PO：验证故事草稿（可选）"}
     B3 -->|Validation Requested <br> 请求验证| B4["PO: Validate Story Against Artifacts <br> PO：根据产物验证故事"]
@@ -140,13 +140,13 @@ graph TD
     C -->|Needs Changes <br> 需要修改| B2
     D --> E["Dev: Implement Tasks + Tests <br> 开发：实现任务+测试"]
     E --> V{"Mid-Dev QA Check? (Optional) <br> 开发中期QA检查？（可选）"}
-    V -->|Yes / 是| W["QA: *trace or *nfr for Early Validation <br> QA：*追踪或*非功能需求进行早期验证"]
-    V -->|No / 否| F
+    V -->|Yes <br> 是| W["QA: *trace or *nfr for Early Validation <br> QA：*追踪或*非功能需求进行早期验证"]
+    V -->|No <br> 否| F
     W --> X["Dev: Address Coverage/NFR Gaps <br> 开发：解决覆盖率/非功能需求差距"]
     X --> F["Dev: Run All Validations <br> 开发：运行所有验证"]
     F --> G["Dev: Mark Ready for Review + Add Notes <br> 开发：标记为待审查+添加备注"]
     G --> H{"User Verification <br> 用户验证"}
-    H -->|Request QA Review <br> 请求QA审查| I["QA: Test Architect Review + Quality Gate <br> QA：测试架构师审查+质量门"]
+    H -->|Request QA Review <br> 请求QA审查| I["QA: Test Architect Review + Quality Gate <br> QA：测试架构师审查+质量门禁"]
     H -->|Approve Without QA <br> 无需QA批准| M["IMPORTANT: Verify All Regression Tests and Linting are Passing <br> 重要：验证所有回归测试和代码检查通过"]
     I --> J["QA: Test Architecture Analysis + Active Refactoring <br> QA：测试架构分析+主动重构"]
     J --> L{"QA Decision <br> QA决策"}
@@ -154,9 +154,9 @@ graph TD
     L -->|Approved <br> 已批准| M
     H -->|Needs Fixes <br> 需要修复| D
     M --> N["IMPORTANT: COMMIT YOUR CHANGES BEFORE PROCEEDING! <br> 重要：继续前请提交您的更改！"]
-    N --> Y{"Gate Update Needed? <br> 需要更新质量门吗？"}
-    Y -->|Yes / 是| Z["QA: *gate to Update Status <br> QA：*gate更新状态"]
-    Y -->|No / 否| K
+    N --> Y{"Gate Update Needed? <br> 需要更新质量门禁吗？"}
+    Y -->|Yes <br> 是| Z["QA: *gate to Update Status <br> QA：*gate更新状态"]
+    Y -->|No <br> 否| K
     Z --> K["Mark Story as Done <br> 标记故事为完成"]
     K --> B
 
@@ -191,12 +191,15 @@ graph TD
 ## 先决条件
 
 Before installing BMad Method, ensure you have:
+
 在安装 BMad 方法之前，请确保您已具备：
 
 - **Node.js** ≥ 18, **npm** ≥ 9
 - **Git** installed and configured
+  
   **Git** 已安装并配置
 - **(Optional)** VS Code with "Markdown All in One" + "Markdown Preview Mermaid Support" extensions
+  
   **(可选)** VS Code 及 "Markdown All in One" + "Markdown Preview Mermaid Support" 插件
 
 ## Installation
@@ -206,17 +209,23 @@ Before installing BMad Method, ensure you have:
 ### 可选
 
 If you want to do the planning on the web with Claude (Sonnet 4 or Opus), Gemini Gem (2.5 Pro), or Custom GPTs:
+
 如果您想在网页上使用 Claude (Sonnet 4 或 Opus)、Gemini Gem (2.5 Pro) 或自定义 GPTs 进行规划：
 
 1. Navigate to `dist/teams/`
+   
    导航到 `dist/teams/`
 2. Copy `team-fullstack.txt`
+   
    复制 `team-fullstack.txt`
 3. Create new Gemini Gem or CustomGPT
+   
    创建新的 Gemini Gem 或 CustomGPT
 4. Upload file with instructions: "Your critical operating instructions are attached, do not break character as directed"
+   
    上传文件并附上说明：“您的关键操作指令已附上，请按指示执行，不要偏离角色”
 5. Type `/help` to see available commands
+   
    输入 `/help` 查看可用命令
 
 ### IDE Project Setup
@@ -274,19 +283,24 @@ dependencies:
 ```
 
 **Key Points:**
+
 **关键点：**
 
 - Agents only load resources they need (lean context)
+  
   代理只加载它们需要的资源（精简上下文）
 - Dependencies are automatically resolved during bundling
+  
   依赖项在打包过程中自动解析
 - Resources are shared across agents to maintain consistency
+  
   资源在代理之间共享以保持一致性
 
 #### Agent Interaction
 #### 代理交互
 
 **In IDE:**
+
 **在 IDE 中：**
 
 ```bash
@@ -342,7 +356,7 @@ dependencies:
 
 The QA agent in BMad is not just a "senior developer reviewer" - it's a **Test Architect** with deep expertise in test strategy, quality gates, and risk-based testing. Named Quinn, this agent provides advisory authority on quality matters while actively improving code when safe to do so.
 
-BMad 中的 QA 代理不仅仅是一个“高级开发评审员”——它是一位在测试策略、质量门和基于风险的测试方面拥有深厚专业知识的**测试架构师**。这位名为 Quinn 的代理在质量问题上提供咨询权威，并在安全的情况下积极改进代码。
+BMad 中的 QA 代理不仅仅是一个“高级开发评审员”——它是一位在测试策略、质量门禁和基于风险的测试方面拥有深厚专业知识的**测试架构师**。这位名为 Quinn 的代理在质量问题上提供咨询权威，并在安全的情况下积极改进代码。
 
 #### Quick Start (Essential Commands)
 #### 快速入门（基本命令）
@@ -357,7 +371,7 @@ BMad 中的 QA 代理不仅仅是一个“高级开发评审员”——它是�
 @qa *nfr {story}        # Check quality attributes
                          # 检查质量属性
 @qa *review {story}     # Full assessment → writes gate
-                         # 全面评估 → 编写质量门
+                         # 全面评估 → 编写质量门禁
 ```
 
 #### Command Aliases (Test Architect)
@@ -400,7 +414,7 @@ Identifies and assesses implementation risks:
   **缓解措施**：针对每个已识别风险的具体策略
 - **Gate Impact**: Risks ≥9 trigger FAIL, ≥6 trigger CONCERNS (see `tasks/risk-profile.md` for authoritative rules)
 
-  **质量门影响**：风险 ≥9 触发 FAIL，≥6 触发 CONCERNS（权威规则请参见 `tasks/risk-profile.md`）
+  **质量门禁影响**：风险 ≥9 触发 FAIL，≥6 触发 CONCERNS（权威规则请参见 `tasks/risk-profile.md`）
 
 #### 2. Test Design (`*design`)
 #### 2. 测试设计 (`*design`)
@@ -487,7 +501,7 @@ Validates non-functional requirements:
   **基于证据**：寻找实际的实现证明
 - **Gate Integration**: NFR failures directly impact quality gates
   
-  **质量门集成**：非功能性需求的失败直接影响质量门
+  **质量门禁集成**：非功能性需求的失败直接影响质量门禁
 
 #### 5. Comprehensive Test Architecture Review (`*review`)
 #### 5. 全面测试架构审查 (`*review`)
@@ -514,25 +528,25 @@ When you run `@qa *review {story}`, Quinn performs:
   **主动重构**：在安全的情况下直接提高代码质量
 - **Quality Gate Decision**: Issues PASS/CONCERNS/FAIL status based on findings
   
-  **质量门决策**：根据发现结果发布 PASS/CONCERNS/FAIL 状态
+  **质量门禁决策**：根据发现结果发布 PASS/CONCERNS/FAIL 状态
 
 #### 6. Quality Gates (`*gate`)
-#### 6. 质量门 (`*gate`)
+#### 6. 质量门禁 (`*gate`)
 
 **When:** After review fixes or when gate status needs updating
 
-**时间：** 审查修复后或需要更新质量门状态时
+**时间：** 审查修复后或需要更新质量门禁状态时
 
 Manages quality gate decisions:
 
-管理质量门决策：
+管理质量门禁决策：
 
 - **Deterministic Rules**: Clear criteria for PASS/CONCERNS/FAIL
   
   **确定性规则**：明确的 PASS/CONCERNS/FAIL 标准
 - **Parallel Authority**: QA owns gate files in `docs/qa/gates/`
   
-  **并行权限**：QA 拥有 `docs/qa/gates/` 中的质量门文件
+  **并行权限**：QA 拥有 `docs/qa/gates/` 中的质量门禁文件
 - **Advisory Nature**: Provides recommendations, not blocks
   
   **咨询性质**：提供建议，而非阻止
@@ -542,7 +556,7 @@ Manages quality gate decisions:
 
 **Note:** Gates are advisory; teams choose their quality bar. WAIVED requires reason, approver, and expiry date. See `templates/qa-gate-tmpl.yaml` for schema and `tasks/review-story.md` (gate rules) and `tasks/risk-profile.md` for scoring.
 
-**注意：** 质量门是建议性的；团队选择自己的质量标准。WAIVED 需要原因、批准人和到期日期。有关模式，请参见 `templates/qa-gate-tmpl.yaml`；有关评分，请参见 `tasks/review-story.md`（质量门规则）和 `tasks/risk-profile.md`。
+**注意：** 质量门禁是建议性的；团队选择自己的质量标准。WAIVED 需要原因、批准人和到期日期。有关模式，请参见 `templates/qa-gate-tmpl.yaml`；有关评分，请参见 `tasks/review-story.md`（质量门禁规则）和 `tasks/risk-profile.md`。
 
 ### Working with the Test Architect
 ### 与测试架构师协作
@@ -569,7 +583,7 @@ The Test Architect provides value throughout the entire development lifecycle. H
 |                | `*design`   | 风险评估后              | 指导开发制定测试策略       | `docs/qa/assessments/{epic}.{story}-test-design-{YYYYMMDD}.md` |
 | **开发**       | `*trace`    | 实现中期                | 验证测试覆盖率             | `docs/qa/assessments/{epic}.{story}-trace-{YYYYMMDD}.md`       |
 |                | `*nfr`      | 构建功能时              | 尽早发现质量问题           | `docs/qa/assessments/{epic}.{story}-nfr-{YYYYMMDD}.md`         |
-| **审查**       | `*review`   | 故事标记为完成时        | 全面质量评估               | 故事中的 QA 结果 + 质量门文件                                  |
+| **审查**       | `*review`   | 故事标记为完成时        | 全面质量评估               | 故事中的 QA 结果 + 质量门禁文件                                  |
 | **审查后**     | `*gate`     | 修复问题后              | 更新质量决策               | 更新的 `docs/qa/gates/{epic}.{story}-{slug}.yml`               |
 
 #### Example Commands
@@ -598,7 +612,7 @@ The Test Architect provides value throughout the entire development lifecycle. H
 # Post-Review - Run after addressing issues
 # 审查后 - 解决问题后运行
 @qa *gate {story}           # Update gate status
-                            # 更新质量门状态
+                            # 更新质量门禁状态
 ```
 
 ### Quality Standards Enforced
@@ -628,7 +642,7 @@ Quinn 强制执行以下测试质量原则：
   **明确的断言**：将断言保留在测试中，而不是辅助函数中
 
 ### Gate Status Meanings
-### 质量门状态含义
+### 质量门禁状态含义
 
 - **PASS**: All critical requirements met, no blocking issues
   
@@ -704,7 +718,7 @@ Quinn 强制执行以下测试质量原则：
   **迭代改进**：利用 QA 反馈改进未来的故事
 - **Gate Transparency**: Share gate decisions with the team
   
-  **质量门透明度**：与团队共享质量门决策
+  **质量门禁透明度**：与团队共享质量门禁决策
 - **Continuous Learning**: QA documents patterns for team knowledge sharing
   
   **持续学习**：QA 记录模式以供团队知识共享

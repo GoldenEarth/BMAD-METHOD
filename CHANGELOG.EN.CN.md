@@ -4,7 +4,8 @@
 ### 错误修复
 
 - align installer dependencies with root package versions for ESM compatibility ([#420](https://github.com/bmadcode/BMAD-METHOD/issues/420)) ([3f6b674](https://github.com/bmadcode/BMAD-METHOD/commit/3f6b67443d61ae6add98656374bed27da4704644))
-- 为实现 ESM 兼容性，将安装程序的依赖项与根包版本对齐 ([#420](https://github.com/bmadcode/BMAD-METHOD/issues/420)) ([3f6b674](https://github.com/bmadcode/BMAD-METHOD/commit/3f6b67443d61ae6add98656374bed27da4704644))
+  
+  为实现 ESM 兼容性，将安装程序的依赖项与根包版本对齐 ([#420](https://github.com/bmadcode/BMAD-METHOD/issues/420)) ([3f6b674](https://github.com/bmadcode/BMAD-METHOD/commit/3f6b67443d61ae6add98656374bed27da4704644))
 
 ## [4.36.1](https://github.com/bmadcode/BMAD-METHOD/compare/v4.36.0...v4.36.1) (2025-08-09)
 
@@ -12,7 +13,8 @@
 ### 错误修复
 
 - update Node.js version to 20 in release workflow and reduce Discord spam ([3f7e19a](https://github.com/bmadcode/BMAD-METHOD/commit/3f7e19a098155341a2b89796addc47b0623cb87a))
-- 在发布工作流中将 Node.js 版本更新至 20，并减少 Discord 垃圾信息 ([3f7e19a](https://github.com/bmadcode/BMAD-METHOD/commit/3f7e19a098155341a2b89796addc47b0623cb87a))
+
+  在发布工作流中将 Node.js 版本更新至 20，并减少 Discord 垃圾信息 ([3f7e19a](https://github.com/bmadcode/BMAD-METHOD/commit/3f7e19a098155341a2b89796addc47b0623cb87a))
 
 # [4.36.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.35.3...v4.36.0) (2025-08-09)
 
@@ -20,7 +22,8 @@
 ### 功能
 
 - modularize flattener tool into separate components with improved project root detection ([#417](https://github.com/bmadcode/BMAD-METHOD/issues/417)) ([0fdbca7](https://github.com/bmadcode/BMAD-METHOD/commit/0fdbca73fc60e306109f682f018e105e2b4623a2))
-- 将扁平化工具模块化为独立组件，并改进项目根目录检测 ([#417](https://github.com/bmadcode/BMAD-METHOD/issues/417)) ([0fdbca7](https://github.com/bmadcode/BMAD-METHOD/commit/0fdbca73fc60e306109f682f018e105e2b4623a2))
+
+  将扁平化工具模块化为独立组件，并改进项目根目录检测 ([#417](https://github.com/bmadcode/BMAD-METHOD/issues/417)) ([0fdbca7](https://github.com/bmadcode/BMAD-METHOD/commit/0fdbca73fc60e306109f682f018e105e2b4623a2))
 
 ## [4.35.3](https://github.com/bmadcode/BMAD-METHOD/compare/v4.35.2...v4.35.3) (2025-08-06)
 
@@ -28,7 +31,8 @@
 ### 错误修复
 
 - doc location improvement ([1676f51](https://github.com/bmadcode/BMAD-METHOD/commit/1676f5189ed057fa2d7facbd6a771fe67cdb6372))
-- 文档位置改进 ([1676f51](https://github.com/bmadcode/BMAD-METHOD/commit/1676f5189ed057fa2d7facbd6a771fe67cdb6372))
+
+  文档位置改进 ([1676f51](https://github.com/bmadcode/BMAD-METHOD/commit/1676f5189ed057fa2d7facbd6a771fe67cdb6372))
 
 ## [4.35.2](https://github.com/bmadcode/BMAD-METHOD/compare/v4.35.1...v4.35.2) (2025-08-06)
 
@@ -36,7 +40,8 @@
 ### 错误修复
 
 - npx status check ([f7c2a4f](https://github.com/bmadcode/BMAD-METHOD/commit/f7c2a4fb6c454b17d250b85537129b01ffee6b85))
-- npx 状态检查 ([f7c2a4f](https://github.com/bmadcode/BMAD-METHOD/commit/f7c2a4fb6c454b17d250b85537129b01ffee6b85))
+
+  npx 状态检查 ([f7c2a4f](https://github.com/bmadcode/BMAD-METHOD/commit/f7c2a4fb6c454b17d250b85537129b01ffee6b85))
 
 ## [4.35.1](https://github.com/bmadcode/BMAD-METHOD/compare/v4.35.0...v4.35.1) (2025-08-06)
 
@@ -44,7 +49,8 @@
 ### 错误修复
 
 - npx hanging commands ([2cf322e](https://github.com/bmadcode/BMAD-METHOD/commit/2cf322ee0d9b563a4998c72b2c5eab259594739b))
-- npx 挂起命令 ([2cf322e](https://github.com/bmadcode/BMAD-METHOD/commit/2cf322ee0d9b563a4998c72b2c5eab259594739b))
+
+  npx 挂起命令 ([2cf322e](https://github.com/bmadcode/BMAD-METHOD/commit/2cf322ee0d9b563a4998c72b2c5eab259594739b))
 
 # [4.35.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.34.0...v4.35.0) (2025-08-04)
 
@@ -52,7 +58,8 @@
 ### 功能
 
 - add qwen-code ide support to bmad installer. ([#392](https://github.com/bmadcode/BMAD-METHOD/issues/392)) ([a72b790](https://github.com/bmadcode/BMAD-METHOD/commit/a72b790f3be6c77355511ace2d63e6bec4d751f1))
-- 为 bmad 安装程序添加 qwen-code ide 支持。([#392](https://github.com/bmadcode/BMAD-METHOD/issues/392)) ([a72b790](https://github.com/bmadcode/BMAD-METHOD/commit/a72b790f3be6c77355511ace2d63e6bec4d751f1))
+
+  为 bmad 安装程序添加 qwen-code ide 支持。([#392](https://github.com/bmadcode/BMAD-METHOD/issues/392)) ([a72b790](https://github.com/bmadcode/BMAD-METHOD/commit/a72b790f3be6c77355511ace2d63e6bec4d751f1))
 
 # [4.34.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.33.1...v4.34.0) (2025-08-03)
 
@@ -60,7 +67,8 @@
 ### 功能
 
 - add KiloCode integration support to BMAD installer ([#390](https://github.com/bmadcode/BMAD-METHOD/issues/390)) ([dcebe91](https://github.com/bmadcode/BMAD-METHOD/commit/dcebe91d5ea68e69aa27183411a81639d444efd7))
-- 为 BMAD 安装程序添加 KiloCode 集成支持 ([#390](https://github.com/bmadcode/BMAD-METHOD/issues/390)) ([dcebe91](https://github.com/bmadcode/BMAD-METHOD/commit/dcebe91d5ea68e69aa27183411a81639d444efd7))
+
+  为 BMAD 安装程序添加 KiloCode 集成支持 ([#390](https://github.com/bmadcode/BMAD-METHOD/issues/390)) ([dcebe91](https://github.com/bmadcode/BMAD-METHOD/commit/dcebe91d5ea68e69aa27183411a81639d444efd7))
 
 ## [4.33.1](https://github.com/bmadcode/BMAD-METHOD/compare/v4.33.0...v4.33.1) (2025-07-29)
 
@@ -68,7 +76,8 @@
 ### 错误修复
 
 - dev agent yaml syntax for develop-story command ([#362](https://github.com/bmadcode/BMAD-METHOD/issues/362)) ([bcb3728](https://github.com/bmadcode/BMAD-METHOD/commit/bcb3728f8868c0f83bca3d61fbd7e15c4e114526))
-- 修复 develop-story 命令的 dev agent yaml 语法 ([#362](https://github.com/bmadcode/BMAD-METHOD/issues/362)) ([bcb3728](https://github.com/bmadcode/BMAD-METHOD/commit/bcb3728f8868c0f83bca3d61fbd7e15c4e114526))
+
+  修复 develop-story 命令的 dev agent yaml 语法 ([#362](https://github.com/bmadcode/BMAD-METHOD/issues/362)) ([bcb3728](https://github.com/bmadcode/BMAD-METHOD/commit/bcb3728f8868c0f83bca3d61fbd7e15c4e114526))
 
 # [4.33.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.32.0...v4.33.0) (2025-07-28)
 
@@ -76,7 +85,8 @@
 ### 功能
 
 - version bump ([e9dd4e7](https://github.com/bmadcode/BMAD-METHOD/commit/e9dd4e7beb46d0c80df0cd65ae02d1867a56d7c1))
-- 版本更新 ([e9dd4e7](https://github.com/bmadcode/BMAD-METHOD/commit/e9dd4e7beb46d0c80df0cd65ae02d1867a56d7c1))
+
+  版本更新 ([e9dd4e7](https://github.com/bmadcode/BMAD-METHOD/commit/e9dd4e7beb46d0c80df0cd65ae02d1867a56d7c1))
 
 # [4.32.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.31.0...v4.32.0) (2025-07-27)
 
@@ -84,16 +94,19 @@
 ### 错误修复
 
 - Add package-lock.json to fix GitHub Actions dependency resolution ([cce7a75](https://github.com/bmadcode/BMAD-METHOD/commit/cce7a758a632053e26d143b678eb7963599b432d))
-- 添加 package-lock.json 以修复 GitHub Actions 依赖解析问题 ([cce7a75](https://github.com/bmadcode/BMAD-METHOD/commit/cce7a758a632053e26d143b678eb7963599b432d))
+
+  添加 package-lock.json 以修复 GitHub Actions 依赖解析问题 ([cce7a75](https://github.com/bmadcode/BMAD-METHOD/commit/cce7a758a632053e26d143b678eb7963599b432d))
 
 - GHA fix ([62ccccd](https://github.com/bmadcode/BMAD-METHOD/commit/62ccccdc9e85f8621f63f99bd1ce0d14abe09783))
-- GHA 修复 ([62ccccd](https://github.com/bmadcode/BMAD-METHOD/commit/62ccccdc9e85f8621f63f99bd1ce0d14abe09783))
+ 
+  GHA 修复 ([62ccccd](https://github.com/bmadcode/BMAD-METHOD/commit/62ccccdc9e85f8621f63f99bd1ce0d14abe09783))
 
 ### Features
 ### 功能
 
 - Overhaul and Enhance 2D Unity Game Dev Expansion Pack ([#350](https://github.com/bmadcode/BMAD-METHOD/issues/350)) ([a7038d4](https://github.com/bmadcode/BMAD-METHOD/commit/a7038d43d18246f6aef175aa89ba059b7c94f61f))
-- 彻底修改和增强 2D Unity 游戏开发扩展包 ([#350](https://github.com/bmadcode/BMAD-METHOD/issues/350)) ([a7038d4](https://github.com/bmadcode/BMAD-METHOD/commit/a7038d43d18246f6aef175aa89ba059b7c94f61f))
+
+  彻底修改和增强 2D Unity 游戏开发扩展包 ([#350](https://github.com/bmadcode/BMAD-METHOD/issues/350)) ([a7038d4](https://github.com/bmadcode/BMAD-METHOD/commit/a7038d43d18246f6aef175aa89ba059b7c94f61f))
 
 # [4.31.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.30.4...v4.31.0) (2025-07-20)
 
@@ -101,13 +114,15 @@
 ### 错误修复
 
 - enhanced user guide with better diagrams ([c445962](https://github.com/bmadcode/BMAD-METHOD/commit/c445962f259cd7d84c47a896e7fda99e83a30c8d))
-- 使用更好的图表增强了用户指南 ([c445962](https://github.com/bmadcode/BMAD-METHOD/commit/c445962f259cd7d84c47a896e7fda99e83a30c8d))
+
+  使用更好的图表增强了用户指南 ([c445962](https://github.com/bmadcode/BMAD-METHOD/commit/c445962f259cd7d84c47a896e7fda99e83a30c8d))
 
 ### Features
 ### 功能
 
 - Installation includes a getting started user guide with detailed mermaid diagram ([df57d77](https://github.com/bmadcode/BMAD-METHOD/commit/df57d772cac9f9010811e7e86a6433a0fe636a45))
-- 安装现在包含一个入门用户指南，其中包含详细的 mermaid 图 ([df57d77](https://github.com/bmadcode/BMAD-METHOD/commit/df57d772cac9f9010811e7e86a6433a0fe636a45))
+
+  安装现在包含一个入门用户指南，其中包含详细的 mermaid 图 ([df57d77](https://github.com/bmadcode/BMAD-METHOD/commit/df57d772cac9f9010811e7e86a6433a0fe636a45))
 
 ## [4.30.4](https://github.com/bmadcode/BMAD-METHOD/compare/v4.30.3...v4.30.4) (2025-07-19)
 
@@ -115,10 +130,12 @@
 ### 错误修复
 
 - docs ([8619006](https://github.com/bmadcode/BMAD-METHOD/commit/8619006c16731b99fa36b434d209a0c2caf2d998))
-- 文档 ([8619006](https://github.com/bmadcode/BMAD-METHOD/commit/8619006c16731b99fa36b434d209a0c2caf2d998))
+
+  文档 ([8619006](https://github.com/bmadcode/BMAD-METHOD/commit/8619006c16731b99fa36b434d209a0c2caf2d998))
 
 - lint fix ([49e4897](https://github.com/bmadcode/BMAD-METHOD/commit/49e489701e55feac481806740ea54bebef042fba))
-- lint 修复 ([49e4897](https://github.com/bmadcode/BMAD-METHOD/commit/49e489701e55feac481806740ea54bebef042fba))
+
+  lint 修复 ([49e4897](https://github.com/bmadcode/BMAD-METHOD/commit/49e489701e55feac481806740ea54bebef042fba))
 
 ## [4.30.3](https://github.com/bmadcode/BMAD-METHOD/compare/v4.30.2...v4.30.3) (2025-07-19)
 
@@ -126,7 +143,8 @@
 ### 错误修复
 
 - improve code in the installer to be more memory efficient ([849e428](https://github.com/bmadcode/BMAD-METHOD/commit/849e42871ab845098fd196217bce83e43c736b8a))
-- 改进安装程序中的代码，使其内存效率更高 ([849e428](https://github.com/bmadcode/BMAD-METHOD/commit/849e42871ab845098fd196217bce83e43c736b8a))
+
+  改进安装程序中的代码，使其内存效率更高 ([849e428](https://github.com/bmadcode/BMAD-METHOD/commit/849e42871ab845098fd196217bce83e43c736b8a))
 
 ## [4.30.2](https://github.com/bmadcode/BMAD-METHOD/compare/v4.30.1...v4.30.2) (2025-07-17)
 
@@ -134,7 +152,8 @@
 ### 错误修复
 
 - remove z2 ([dcb36a9](https://github.com/bmadcode/BMAD-METHOD/commit/dcb36a9b44b6644f6b2723c9067abaa9b0bc1999))
-- 移除 z2 ([dcb36a9](https://github.com/bmadcode/BMAD-METHOD/commit/dcb36a9b44b6644f6b2723c9067abaa9b0bc1999))
+
+  移除 z2 ([dcb36a9](https://github.com/bmadcode/BMAD-METHOD/commit/dcb36a9b44b6644f6b2723c9067abaa9b0bc1999))
 
 ## [4.30.1](https://github.com/bmadcode/BMAD-METHOD/compare/v4.30.0...v4.30.1) (2025-07-15)
 
@@ -142,7 +161,8 @@
 ### 错误修复
 
 - added logo to installer, because why not... ([2cea37a](https://github.com/bmadcode/BMAD-METHOD/commit/2cea37aa8c1924ddf5aa476f4c312837f2615a70))
-- 为安装程序添加了徽标，因为为什么不呢... ([2cea37a](https://github.com/bmadcode/BMAD-METHOD/commit/2cea37aa8c1924ddf5aa476f4c312837f2615a70))
+
+  为安装程序添加了徽标，因为为什么不呢... ([2cea37a](https://github.com/bmadcode/BMAD-METHOD/commit/2cea37aa8c1924ddf5aa476f4c312837f2615a70))
 
 # [4.30.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.29.7...v4.30.0) (2025-07-15)
 
@@ -150,7 +170,8 @@
 ### 功能
 
 - installer is now VERY clear about IDE selection being a multiselect ([e24b6f8](https://github.com/bmadcode/BMAD-METHOD/commit/e24b6f84fd9e4ff4b99263019b5021ca2b145b2f))
-- 安装程序现在非常清楚地表明 IDE 选择是多选的 ([e24b6f8](https://github.com/bmadcode/BMAD-METHOD/commit/e24b6f84fd9e4ff4b99263019b5021ca2b145b2f))
+
+  安装程序现在非常清楚地表明 IDE 选择是多选的 ([e24b6f8](https://github.com/bmadcode/BMAD-METHOD/commit/e24b6f84fd9e4ff4b99263019b5021ca2b145b2f))
 
 ## [4.29.7](https://github.com/bmadcode/BMAD-METHOD/compare/v4.29.6...v4.29.7) (2025-07-14)
 
@@ -158,7 +179,8 @@
 ### 错误修复
 
 - bundle build ([0723eed](https://github.com/bmadcode/BMAD-METHOD/commit/0723eed88140e76146dfbfdddd49afe86e8522ee))
-- 捆绑包构建 ([0723eed](https://github.com/bmadcode/BMAD-METHOD/commit/0723eed88140e76146dfbfdddd49afe86e8522ee))
+
+  捆绑包构建 ([0723eed](https://github.com/bmadcode/BMAD-METHOD/commit/0723eed88140e76146dfbfdddd49afe86e8522ee))
 
 ## [4.29.6](https://github.com/bmadcode/BMAD-METHOD/compare/v4.29.5...v4.29.6) (2025-07-14)
 
@@ -166,7 +188,8 @@
 ### 错误修复
 
 - improve agent task folowing in agressing cost saving ide model combos ([3621c33](https://github.com/bmadcode/BMAD-METHOD/commit/3621c330e65f328e7326f93a5fe27e65b08907e7))
-- 在积极节省成本的 IDE 模型组合中改进代理任务跟踪 ([3621c33](https://github.com/bmadcode/BMAD-METHOD/commit/3621c330e65f328e7326f93a5fe27e65b08907e7))
+
+  在积极节省成本的 IDE 模型组合中改进代理任务跟踪 ([3621c33](https://github.com/bmadcode/BMAD-METHOD/commit/3621c330e65f328e7326f93a5fe27e65b08907e7))
 
 ## [4.29.5](https://github.com/bmadcode/BMAD-METHOD/compare/v4.29.4...v4.29.5) (2025-07-14)
 
@@ -174,7 +197,8 @@
 ### 错误修复
 
 - windows regex issue ([9f48c1a](https://github.com/bmadcode/BMAD-METHOD/commit/9f48c1a869a9cc54fb5e7d899c2af7a5cef70e10))
-- windows 正则表达式问题 ([9f48c1a](https://github.com/bmadcode/BMAD-METHOD/commit/9f48c1a869a9cc54fb5e7d899c2af7a5cef70e10))
+
+  windows 正则表达式问题 ([9f48c1a](https://github.com/bmadcode/BMAD-METHOD/commit/9f48c1a869a9cc54fb5e7d899c2af7a5cef70e10))
 
 ## [4.29.4](https://github.com/bmadcode/BMAD-METHOD/compare/v4.29.3...v4.29.4) (2025-07-14)
 
@@ -182,7 +206,8 @@
 ### 错误修复
 
 - empty .roomodes, support Windows-style newlines in YAML block regex ([#311](https://github.com/bmadcode/BMAD-METHOD/issues/311)) ([551e30b](https://github.com/bmadcode/BMAD-METHOD/commit/551e30b65e1f04386f0bd0193f726828df684d5b))
-- 空的 .roomodes，在 YAML 块正则表达式中支持 Windows 风格的换行符 ([#311](https://github.com/bmadcode/BMAD-METHOD/issues/311)) ([551e30b](https://github.com/bmadcode/BMAD-METHOD/commit/551e30b65e1f04386f0bd0193f726828df684d5b))
+
+  空的 .roomodes，在 YAML 块正则表达式中支持 Windows 风格的换行符 ([#311](https://github.com/bmadcode/BMAD-METHOD/issues/311)) ([551e30b](https://github.com/bmadcode/BMAD-METHOD/commit/551e30b65e1f04386f0bd0193f726828df684d5b))
 
 ## [4.29.3](https://github.com/bmadcode/BMAD-METHOD/compare/v4.29.2...v4.29.3) (2025-07-13)
 
@@ -190,7 +215,8 @@
 ### 错误修复
 
 - annoying YAML lint error ([afea271](https://github.com/bmadcode/BMAD-METHOD/commit/afea271e5e3b14a0da497e241b6521ba5a80b85b))
-- 烦人的 YAML lint 错误 ([afea271](https://github.com/bmadcode/BMAD-METHOD/commit/afea271e5e3b14a0da497e241b6521ba5a80b85b))
+
+  烦人的 YAML lint 错误 ([afea271](https://github.com/bmadcode/BMAD-METHOD/commit/afea271e5e3b14a0da497e241b6521ba5a80b85b))
 
 ## [4.29.2](https://github.com/bmadcode/BMAD-METHOD/compare/v4.29.1...v4.29.2) (2025-07-13)
 
@@ -198,7 +224,8 @@
 ### 错误修复
 
 - add readme note about discord joining issues ([4ceaced](https://github.com/bmadcode/BMAD-METHOD/commit/4ceacedd7370ea80181db0d66cf8da8dcbfdd109))
-- 在自述文件中添加关于加入 discord 问题的说明 ([4ceaced](https://github.com/bmadcode/BMAD-METHOD/commit/4ceacedd7370ea80181db0d66cf8da8dcbfdd109))
+
+  在自述文件中添加关于加入 discord 问题的说明 ([4ceaced](https://github.com/bmadcode/BMAD-METHOD/commit/4ceacedd7370ea80181db0d66cf8da8dcbfdd109))
 
 ## [4.29.1](https://github.com/bmadcode/BMAD-METHOD/compare/v4.29.0...v4.29.1) (2025-07-13)
 
@@ -206,7 +233,8 @@
 ### 错误修复
 
 - brianstorming facilitation output ([f62c05a](https://github.com/bmadcode/BMAD-METHOD/commit/f62c05ab0f54e6c26c67cd9ac11200b172d11076))
-- 头脑风暴促进输出 ([f62c05a](https://github.com/bmadcode/BMAD-METHOD/commit/f62c05ab0f54e6c26c67cd9ac11200b172d11076))
+
+  头脑风暴促进输出 ([f62c05a](https://github.com/bmadcode/BMAD-METHOD/commit/f62c05ab0f54e6c26c67cd9ac11200b172d11076))
 
 # [4.29.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.28.0...v4.29.0) (2025-07-13)
 
@@ -214,7 +242,8 @@
 ### 功能
 
 - Claude Code slash commands for Tasks and Agents! ([e9e541a](https://github.com/bmadcode/BMAD-METHOD/commit/e9e541a52e45f6632b2f8c91d10e39c077c1ecc9))
-- Claude Code 的任务和代理斜杠命令！([e9e541a](https://github.com/bmadcode/BMAD-METHOD/commit/e9e541a52e45f6632b2f8c91d10e39c077c1ecc9))
+
+  Claude Code 的任务和代理斜杠命令！([e9e541a](https://github.com/bmadcode/BMAD-METHOD/commit/e9e541a52e45f6632b2f8c91d10e39c077c1ecc9))
 
 # [4.28.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.27.6...v4.28.0) (2025-07-12)
 
@@ -222,7 +251,8 @@
 ### 功能
 
 - bmad-master can load kb properly ([3c13c56](https://github.com/bmadcode/BMAD-METHOD/commit/3c13c564988f9750e043939dd770aea4196a7e7a))
-- bmad-master 可以正确加载知识库 ([3c13c56](https://github.com/bmadcode/BMAD-METHOD/commit/3c13c564988f9750e043939dd770aea4196a7e7a))
+
+  bmad-master 可以正确加载知识库 ([3c13c56](https://github.com/bmadcode/BMAD-METHOD/commit/3c13c564988f9750e043939dd770aea4196a7e7a))
 
 ## [4.27.6](https://github.com/bmadcode/BMAD-METHOD/compare/v4.27.5...v4.27.6) (2025-07-08)
 
@@ -230,7 +260,8 @@
 ### 错误修复
 
 - installer improvement ([db30230](https://github.com/bmadcode/BMAD-METHOD/commit/db302309f42da49daa309b5ba1a625c719e5bb14))
-- 安装程序改进 ([db30230](https://github.com/bmadcode/BMAD-METHOD/commit/db302309f42da49daa309b5ba1a625c719e5bb14))
+
+  安装程序改进 ([db30230](https://github.com/bmadcode/BMAD-METHOD/commit/db302309f42da49daa309b5ba1a625c719e5bb14))
 
 ## [4.27.5](https://github.com/bmadcode/BMAD-METHOD/compare/v4.27.4...v4.27.5) (2025-07-08)
 
@@ -238,7 +269,8 @@
 ### 错误修复
 
 - installer for github copilot asks follow up questions right away now so it does not seem to hang, and some minor doc improvements ([cadf8b6](https://github.com/bmadcode/BMAD-METHOD/commit/cadf8b6750afd5daa32eb887608c614584156a69))
-- github copilot 的安装程序现在会立即提出后续问题，因此不会看起来挂起，并进行了一些小的文档改进 ([cadf8b6](https://github.com/bmadcode/BMAD-METHOD/commit/cadf8b6750afd5daa32eb887608c614584156a69))
+
+  github copilot 的安装程序现在会立即提出后续问题，因此不会看起来挂起，并进行了一些小的文档改进 ([cadf8b6](https://github.com/bmadcode/BMAD-METHOD/commit/cadf8b6750afd5daa32eb887608c614584156a69))
 
 ## [4.27.4](https://github.com/bmadcode/BMAD-METHOD/compare/v4.27.3...v4.27.4) (2025-07-07)
 
@@ -246,7 +278,8 @@
 ### 错误修复
 
 - doc updates ([1b86cd4](https://github.com/bmadcode/BMAD-METHOD/commit/1b86cd4db3644ca2b2b4a94821cc8b5690d78e0a))
-- 文档更新 ([1b86cd4](https://github.com/bmadcode/BMAD-METHOD/commit/1b86cd4db3644ca2b2b4a94821cc8b5690d78e0a))
+
+  文档更新 ([1b86cd4](https://github.com/bmadcode/BMAD-METHOD/commit/1b86cd4db3644ca2b2b4a94821cc8b5690d78e0a))
 
 ## [4.27.3](https://github.com/bmadcode/BMAD-METHOD/compare/v4.27.2...v4.27.3) (2025-07-07)
 
@@ -254,7 +287,8 @@
 ### 错误修复
 
 - remove test zoo folder ([908dcd7](https://github.com/bmadcode/BMAD-METHOD/commit/908dcd7e9afae3fd23cd894c0d09855fc9c42d0e))
-- 移除测试动物园文件夹 ([908dcd7](https://github.com/bmadcode/BMAD-METHOD/commit/908dcd7e9afae3fd23cd894c0d09855fc9c42d0e))
+
+  移除测试动物园文件夹 ([908dcd7](https://github.com/bmadcode/BMAD-METHOD/commit/908dcd7e9afae3fd23cd894c0d09855fc9c42d0e))
 
 ## [4.27.2](https://github.com/bmadcode/BMAD-METHOD/compare/v4.27.1...v4.27.2) (2025-07-07)
 
@@ -262,7 +296,8 @@
 ### 错误修复
 
 - improve output ([a5ffe7b](https://github.com/bmadcode/BMAD-METHOD/commit/a5ffe7b9b209ae02a9d97adf60fe73c0bc9701e4))
-- 改进输出 ([a5ffe7b](https://github.com/bmadcode/BMAD-METHOD/commit/a5ffe7b9b209ae02a9d97adf60fe73c0bc9701e4))
+
+  改进输出 ([a5ffe7b](https://github.com/bmadcode/BMAD-METHOD/commit/a5ffe7b9b209ae02a9d97adf60fe73c0bc9701e4))
 
 ## [4.27.1](https://github.com/bmadcode/BMAD-METHOD/compare/v4.27.0...v4.27.1) (2025-07-07)
 
@@ -270,7 +305,8 @@
 ### 错误修复
 
 - build web bundles with new file extension includsion ([92201ae](https://github.com/bmadcode/BMAD-METHOD/commit/92201ae7ede620ec09b4764edaed97be42a3b78f))
-- 使用新的文件扩展名包含构建 web 捆绑包 ([92201ae](https://github.com/bmadcode/BMAD-METHOD/commit/92201ae7ede620ec09b4764edaed97be42a3b78f))
+
+  使用新的文件扩展名包含构建 web 捆绑包 ([92201ae](https://github.com/bmadcode/BMAD-METHOD/commit/92201ae7ede620ec09b4764edaed97be42a3b78f))
 
 # [4.27.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.26.0...v4.27.0) (2025-07-06)
 
@@ -278,22 +314,27 @@
 ### 错误修复
 
 - readme consolidation and version bumps ([0a61d3d](https://github.com/bmadcode/BMAD-METHOD/commit/0a61d3de4af880f6e3bf934a92b1827754ed8ce6))
-- 自述文件整合和版本更新 ([0a61d3d](https://github.com/bmadcode/BMAD-METHOD/commit/0a61d3de4af880f6e3bf934a92b1827754ed8ce6))
+
+  自述文件整合和版本更新 ([0a61d3d](https://github.com/bmadcode/BMAD-METHOD/commit/0a61d3de4af880f6e3bf934a92b1827754ed8ce6))
 
 ### Features
 ### 功能
 
 - big improvement to advanced elicitation ([1bc9960](https://github.com/bmadcode/BMAD-METHOD/commit/1bc9960808098fba6b43850311799022319df841))
-- 高级启发式方法的重大改进 ([1bc9960](https://github.com/bmadcode/BMAD-METHOD/commit/1bc9960808098fba6b43850311799022319df841))
+
+  高级启发式方法的重大改进 ([1bc9960](https://github.com/bmadcode/BMAD-METHOD/commit/1bc9960808098fba6b43850311799022319df841))
 
 - experimental doc creator v2 and template system ([b785371](https://github.com/bmadcode/BMAD-METHOD/commit/b78537115da06b01e140833fd1d73950c7f2e41f))
-- 实验性文档创建器 v2 和模板系统 ([b785371](https://github.com/bmadcode/BMAD-METHOD/commit/b78537115da06b01e140833fd1d73950c7f2e41f))
+
+  实验性文档创建器 v2 和模板系统 ([b785371](https://github.com/bmadcode/BMAD-METHOD/commit/b78537115da06b01e140833fd1d73950c7f2e41f))
 
 - Massive improvement to the brainstorming task! ([9f53caf](https://github.com/bmadcode/BMAD-METHOD/commit/9f53caf4c6f9c67195b1aae14d54987f81d76e07))
-- 头脑风暴任务的巨大改进！([9f53caf](https://github.com/bmadcode/BMAD-METHOD/commit/9f53caf4c6f9c67195b1aae14d54987f81d76e07))
+
+  头脑风暴任务的巨大改进！([9f53caf](https://github.com/bmadcode/BMAD-METHOD/commit/9f53caf4c6f9c67195b1aae14d54987f81d76e07))
 
 - WIP create-docv2 ([c107af0](https://github.com/bmadcode/BMAD-METHOD/commit/c107af05984718c1af2cf80118353e8d2e6f906f))
-- WIP create-docv2 ([c107af0](https://github.com/bmadcode/BMAD-METHOD/commit/c107af05984718c1af2cf80118353e8d2e6f906f))
+
+  WIP create-docv2 ([c107af0](https://github.com/bmadcode/BMAD-METHOD/commit/c107af05984718c1af2cf80118353e8d2e6f906f))
 
 # [4.26.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.25.1...v4.26.0) (2025-07-06)
 
@@ -301,7 +342,8 @@
 ### 功能
 
 - **trae:** add support for trae ide integration ([#298](https://github.com/bmadcode/BMAD-METHOD/issues/298)) ([fae0f5f](https://github.com/bmadcode/BMAD-METHOD/commit/fae0f5ff73a603dc1aacc29f184e2a4138446524))
-- **trae:** 添加对 trae ide 集成的支持 ([#298](https://github.com/bmadcode/BMAD-METHOD/issues/298)) ([fae0f5f](https://github.com/bmadcode/BMAD-METHOD/commit/fae0f5ff73a603dc1aacc29f184e2a4138446524))
+
+  **trae:** 添加对 trae ide 集成的支持 ([#298](https://github.com/bmadcode/BMAD-METHOD/issues/298)) ([fae0f5f](https://github.com/bmadcode/BMAD-METHOD/commit/fae0f5ff73a603dc1aacc29f184e2a4138446524))
 
 ## [4.25.1](https://github.com/bmadcode/BMAD-METHOD/compare/v4.25.0...v4.25.1) (2025-07-06)
 
@@ -309,7 +351,8 @@
 ### 错误修复
 
 - spelling errors in documentation. ([#297](https://github.com/bmadcode/BMAD-METHOD/issues/297)) ([47b9d9f](https://github.com/bmadcode/BMAD-METHOD/commit/47b9d9f3e87be62c8520ed6cb0048df727a9534f))
-- 文档中的拼写错误。([#297](https://github.com/bmadcode/BMAD-METHOD/issues/297)) ([47b9d9f](https://github.com/bmadcode/BMAD-METHOD/commit/47b9d9f3e87be62c8520ed6cb0048df727a9534f))
+
+  文档中的拼写错误。([#297](https://github.com/bmadcode/BMAD-METHOD/issues/297)) ([47b9d9f](https://github.com/bmadcode/BMAD-METHOD/commit/47b9d9f3e87be62c8520ed6cb0048df727a9534f))
 
 # [4.25.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.24.6...v4.25.0) (2025-07-05)
 
@@ -317,13 +360,15 @@
 ### 错误修复
 
 - update web bundles ([42684e6](https://github.com/bmadcode/BMAD-METHOD/commit/42684e68af4396797962f3f851147523a6741608))
-- 更新 web 捆绑包 ([42684e6](https://github.com/bmadcode/BMAD-METHOD/commit/42684e68af4396797962f3f851147523a6741608))
+
+  更新 web 捆绑包 ([42684e6](https://github.com/bmadcode/BMAD-METHOD/commit/42684e68af4396797962f3f851147523a6741608))
 
 ### Features
 ### 功能
 
 - improvements to agent task usage, sm story drafting, dev implementation, qa review process, and addition of a new sm independant review of a draft story ([2874a54](https://github.com/bmadcode/BMAD-METHOD/commit/2874a54a9b25b48c199b2e9dc63a9555e716c636))
-- 改进了代理任务使用、sm 故事起草、开发实现、qa 审查流程，并增加了一个新的 sm 独立审查草稿故事的功能 ([2874a54](https://github.com/bmadcode/BMAD-METHOD/commit/2874a54a9b25b48c199b2e9dc63a9555e716c636))
+
+  改进了代理任务使用、sm 故事起草、开发实现、qa 审查流程，并增加了一个新的 sm 独立审查草稿故事的功能 ([2874a54](https://github.com/bmadcode/BMAD-METHOD/commit/2874a54a9b25b48c199b2e9dc63a9555e716c636))
 
 ## [4.24.6](https://github.com/bmadcode/BMAD-METHOD/compare/v4.24.5...v4.24.6) (2025-07-04)
 
@@ -331,7 +376,8 @@
 ### 错误修复
 
 - version bump and web build fix ([1c845e5](https://github.com/bmadcode/BMAD-METHOD/commit/1c845e5b2c77a77d887d8216152ba09110c72e40))
-- 版本更新和 web 构建修复 ([1c845e5](https://github.com/bmadcode/BMAD-METHOD/commit/1c845e5b2c77a77d887d8216152ba09110c72e40))
+
+  版本更新和 web 构建修复 ([1c845e5](https://github.com/bmadcode/BMAD-METHOD/commit/1c845e5b2c77a77d887d8216152ba09110c72e40))
 
 ## [4.24.5](https://github.com/bmadcode/BMAD-METHOD/compare/v4.24.4...v4.24.5) (2025-07-04)
 
@@ -339,7 +385,8 @@
 ### 错误修复
 
 - yaml standardization in files and installer actions ([094f9f3](https://github.com/bmadcode/BMAD-METHOD/commit/094f9f3eabf563c9a89ecaf360fed63386b46ed4))
-- 文件和安装程序操作中的 yaml 标准化 ([094f9f3](https://github.com/bmadcode/BMAD-METHOD/commit/094f9f3eabf563c9a89ecaf360fed63386b46ed4))
+
+  文件和安装程序操作中的 yaml 标准化 ([094f9f3](https://github.com/bmadcode/BMAD-METHOD/commit/094f9f3eabf563c9a89ecaf360fed63386b46ed4))
 
 ## [4.24.4](https://github.com/bmadcode/BMAD-METHOD/compare/v4.24.3...v4.24.4) (2025-07-04)
 
@@ -347,7 +394,8 @@
 ### 错误修复
 
 - documentation updates ([2018ad0](https://github.com/bmadcode/BMAD-METHOD/commit/2018ad07c7d4c68efb3c24d85ac7612942c6df9c))
-- 文档更新 ([2018ad0](https://github.com/bmadcode/BMAD-METHOD/commit/2018ad07c7d4c68efb3c24d85ac7612942c6df9c))
+
+  文档更新 ([2018ad0](https://github.com/bmadcode/BMAD-METHOD/commit/2018ad07c7d4c68efb3c24d85ac7612942c6df9c))
 
 ## [4.24.3](https://github.com/bmadcode/BMAD-METHOD/compare/v4.24.2...v4.24.3) (2025-07-04)
 
@@ -355,7 +403,8 @@
 ### 错误修复
 
 - update YAML library from 'yaml' to 'js-yaml' in resolveExpansionPackCoreAgents for consistency ([#295](https://github.com/bmadcode/BMAD-METHOD/issues/295)) ([03f30ad](https://github.com/bmadcode/BMAD-METHOD/commit/03f30ad28b282fbb4fa5a6ed6b57d0327218cce0))
-- 在 resolveExpansionPackCoreAgents 中将 YAML 库从 'yaml' 更新为 'js-yaml' 以保持一致性 ([#295](https://github.com/bmadcode/BMAD-METHOD/issues/295)) ([03f30ad](https://github.com/bmadcode/BMAD-METHOD/commit/03f30ad28b282fbb4fa5a6ed6b57d0327218cce0))
+
+  在 resolveExpansionPackCoreAgents 中将 YAML 库从 'yaml' 更新为 'js-yaml' 以保持一致性 ([#295](https://github.com/bmadcode/BMAD-METHOD/issues/295)) ([03f30ad](https://github.com/bmadcode/BMAD-METHOD/commit/03f30ad28b282fbb4fa5a6ed6b57d0327218cce0))
 
 ## [4.24.2](https://github.com/bmadcode/BMAD-METHOD/compare/v4.24.1...v4.24.2) (2025-07-03)
 
@@ -363,7 +412,8 @@
 ### 错误修复
 
 - version bump and restore dist folder ([87c451a](https://github.com/bmadcode/BMAD-METHOD/commit/87c451a5c3161fbc86f88619a2bfcfc322eb247e))
-- 版本更新并恢复 dist 文件夹 ([87c451a](https://github.com/bmadcode/BMAD-METHOD/commit/87c451a5c3161fbc86f88619a2bfcfc322eb247e))
+
+  版本更新并恢复 dist 文件夹 ([87c451a](https://github.com/bmadcode/BMAD-METHOD/commit/87c451a5c3161fbc86f88619a2bfcfc322eb247e))
 
 ## [4.24.1](https://github.com/bmadcode/BMAD-METHOD/compare/v4.24.0...v4.24.1) (2025-07-03)
 
@@ -371,13 +421,16 @@
 ### 错误修复
 
 - centralized yamlExtraction function and all now fix character issues for windows ([e2985d6](https://github.com/bmadcode/BMAD-METHOD/commit/e2985d6093136575e8d8c91ce53c82abc4097de6))
-- 集中式 yamlExtraction 函数现在可以修复 windows 的字符问题 ([e2985d6](https://github.com/bmadcode/BMAD-METHOD/commit/e2985d6093136575e8d8c91ce53c82abc4097de6))
+
+  集中式 yamlExtraction 函数现在可以修复 windows 的字符问题 ([e2985d6](https://github.com/bmadcode/BMAD-METHOD/commit/e2985d6093136575e8d8c91ce53c82abc4097de6))
 
 - filtering extension stripping logic update ([405954a](https://github.com/bmadcode/BMAD-METHOD/commit/405954ad924d8bd66f94c918643f6e9c091d4d09))
-- 过滤扩展剥离逻辑更新 ([405954a](https://github.com/bmadcode/BMAD-METHOD/commit/405954ad924d8bd66f94c918643f6e9c091d4d09))
+
+  过滤扩展剥离逻辑更新 ([405954a](https://github.com/bmadcode/BMAD-METHOD/commit/405954ad924d8bd66f94c918643f6e9c091d4d09))
 
 - standardize on file extension .yaml instead of a mix of yml and yaml ([a4c0b18](https://github.com/bmadcode/BMAD-METHOD/commit/a4c0b1839d12d2ad21b7949aa30f4f7d82ec6c9c))
-- 标准化文件扩展名为 .yaml，而不是混合使用 yml 和 yaml ([a4c0b18](https://github.com/bmadcode/BMAD-METHOD/commit/a4c0b1839d12d2ad21b7949aa30f4f7d82ec6c9c))
+
+  标准化文件扩展名为 .yaml，而不是混合使用 yml 和 yaml ([a4c0b18](https://github.com/bmadcode/BMAD-METHOD/commit/a4c0b1839d12d2ad21b7949aa30f4f7d82ec6c9c))
 
 # [4.24.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.23.0...v4.24.0) (2025-07-02)
 
@@ -385,13 +438,15 @@
 ### 错误修复
 
 - corrected cursor agent update instructions ([84e394a](https://github.com/bmadcode/BMAD-METHOD/commit/84e394ac11136d9cf8164cefc9ca8e298e8ef0ec))
-- 更正了光标代理更新说明 ([84e394a](https://github.com/bmadcode/BMAD-METHOD/commit/84e394ac11136d9cf8164cefc9ca8e298e8ef0ec))
+
+  更正了光标代理更新说明 ([84e394a](https://github.com/bmadcode/BMAD-METHOD/commit/84e394ac11136d9cf8164cefc9ca8e298e8ef0ec))
 
 ### Features
 ### 功能
 
 - workflow plans introduced, preliminary feature under review ([731589a](https://github.com/bmadcode/BMAD-METHOD/commit/731589aa287c31ea120e232b4dcc07e9790500ff))
-- 引入了工作流计划，初步功能正在审查中 ([731589a](https://github.com/bmadcode/BMAD-METHOD/commit/731589aa287c31ea120e232b4dcc07e9790500ff))
+
+  引入了工作流计划，初步功能正在审查中 ([731589a](https://github.com/bmadcode/BMAD-METHOD/commit/731589aa287c31ea120e232b4dcc07e9790500ff))
 
 # [4.23.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.22.1...v4.23.0) (2025-07-01)
 
@@ -399,7 +454,8 @@
 ### 功能
 
 - Github Copilot integration ([#284](https://github.com/bmadcode/BMAD-METHOD/issues/284)) ([1a4ca4f](https://github.com/bmadcode/BMAD-METHOD/commit/1a4ca4ffa630c2d4156bdd7a040d4c2274801757))
-- Github Copilot 集成 ([#284](https://github.com/bmadcode/BMAD-METHOD/issues/284)) ([1a4ca4f](https://github.com/bmadcode/BMAD-METHOD/commit/1a4ca4ffa630c2d4156bdd7a040d4c2274801757))
+
+  Github Copilot 集成 ([#284](https://github.com/bmadcode/BMAD-METHOD/issues/284)) ([1a4ca4f](https://github.com/bmadcode/BMAD-METHOD/commit/1a4ca4ffa630c2d4156bdd7a040d4c2274801757))
 
 ## [4.22.1](https://github.com/bmadcode/BMAD-METHOD/compare/v4.22.0...v4.22.1) (2025-06-30)
 
@@ -407,7 +463,8 @@
 ### 错误修复
 
 - update expansion versions ([6905fe7](https://github.com/bmadcode/BMAD-METHOD/commit/6905fe72f6c2abefbfd65729d1be85752130a1d2))
-- 更新扩展版本 ([6905fe7](https://github.com/bmadcode/BMAD-METHOD/commit/6905fe72f6c2abefbfd65729d1be85752130a1d2))
+
+  更新扩展版本 ([6905fe7](https://github.com/bmadcode/BMAD-METHOD/commit/6905fe72f6c2abefbfd65729d1be85752130a1d2))
 
 # [4.22.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.21.2...v4.22.0) (2025-06-30)
 
@@ -415,7 +472,8 @@
 ### 功能
 
 - create doc more explicit and readme improvement ([a1b30d9](https://github.com/bmadcode/BMAD-METHOD/commit/a1b30d9341d2ceff79db2c7e178860c5ef0d99e5))
-- 创建更明确的文档和自述文件改进 ([a1b30d9](https://github.com/bmadcode/BMAD-METHOD/commit/a1b30d9341d2ceff79db2c7e178860c5ef0d99e5))
+
+  创建更明确的文档和自述文件改进 ([a1b30d9](https://github.com/bmadcode/BMAD-METHOD/commit/a1b30d9341d2ceff79db2c7e178860c5ef0d99e5))
 
 ## [4.21.2](https://github.com/bmadcode/BMAD-METHOD/compare/v4.21.1...v4.21.2) (2025-06-30)
 
@@ -423,7 +481,8 @@
 ### 错误修复
 
 - improve create-doc task clarity for template execution ([86d5139](https://github.com/bmadcode/BMAD-METHOD/commit/86d5139aea7097cc5d4ee9da0f7d3e395ce0835e))
-- 提高 create-doc 任务的清晰度以进行模板执行 ([86d5139](https://github.com/bmadcode/BMAD-METHOD/commit/86d5139aea7097cc5d4ee9da0f7d3e395ce0835e))
+
+  提高 create-doc 任务的清晰度以进行模板执行 ([86d5139](https://github.com/bmadcode/BMAD-METHOD/commit/86d5139aea7097cc5d4ee9da0f7d3e395ce0835e))
 
 ## [4.21.1](https://github.com/bmadcode/BMAD-METHOD/compare/v4.21.0...v4.21.1) (2025-06-30)
 
@@ -431,7 +490,8 @@
 ### 错误修复
 
 - readme clarifies that the installer handles installs upgrades and expansion installation ([9371a57](https://github.com/bmadcode/BMAD-METHOD/commit/9371a5784f6a6f2ad358a72ea0cde9c980357167))
-- 自述文件阐明安装程序处理安装、升级和扩展安装 ([9371a57](https://github.com/bmadcode/BMAD-METHOD/commit/9371a5784f6a6f2ad358a72ea0cde9c980357167))
+
+  自述文件阐明安装程序处理安装、升级和扩展安装 ([9371a57](https://github.com/bmadcode/BMAD-METHOD/commit/9371a5784f6a6f2ad358a72ea0cde9c980357167))
 
 # [4.21.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.20.0...v4.21.0) (2025-06-30)
 
@@ -439,13 +499,15 @@
 ### 错误修复
 
 - remove unneeded files ([c48f200](https://github.com/bmadcode/BMAD-METHOD/commit/c48f200727384f37a42f4c6b1a946cb90f2445fe))
-- 删除不需要的文件 ([c48f200](https://github.com/bmadcode/BMAD-METHOD/commit/c48f200727384f37a42f4c6b1a946cb90f2445fe))
+
+  删除不需要的文件 ([c48f200](https://github.com/bmadcode/BMAD-METHOD/commit/c48f200727384f37a42f4c6b1a946cb90f2445fe))
 
 ### Features
 ### 功能
 
 - massive installer improvement update ([c151bda](https://github.com/bmadcode/BMAD-METHOD/commit/c151bda93833aa310ccc7c0eabcf483376f9e82a))
-- 大规模安装程序改进更新 ([c151bda](https://github.com/bmadcode/BMAD-METHOD/commit/c151bda93833aa310ccc7c0eabcf483376f9e82a))
+
+  大规模安装程序改进更新 ([c151bda](https://github.com/bmadcode/BMAD-METHOD/commit/c151bda93833aa310ccc7c0eabcf483376f9e82a))
 
 # [4.20.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.19.2...v4.20.0) (2025-06-29)
 
@@ -453,7 +515,8 @@
 ### 功能
 
 - Massive documentation refactor, added explanation of the new expanded role of the QA agent that will make your code quality MUCH better. 2 new diagram clearly explain the role of the pre dev ideation cycle (prd and architecture) and the details of how the dev cycle works. ([c881dcc](https://github.com/bmadcode/BMAD-METHOD/commit/c881dcc48ff827ddfe8653aa364a021a66ce66eb))
-- 大规模文档重构，增加了对 QA 代理新扩展角色的解释，这将使您的代码质量大大提高。2 个新图表清楚地解释了开发前构思周期（prd 和架构）的作用以及开发周期如何工作的细节。([c881dcc](https://github.com/bmadcode/BMAD-METHOD/commit/c881dcc48ff827ddfe8653aa364a021a66ce66eb))
+
+  大规模文档重构，增加了对 QA 代理新扩展角色的解释，这将使您的代码质量大大提高。2 个新图表清楚地解释了开发前构思周期（prd 和架构）的作用以及开发周期如何工作的细节。([c881dcc](https://github.com/bmadcode/BMAD-METHOD/commit/c881dcc48ff827ddfe8653aa364a021a66ce66eb))
 
 ## [4.19.2](https://github.com/bmadcode/BMAD-METHOD/compare/v4.19.1...v4.19.2) (2025-06-28)
 
@@ -461,7 +524,8 @@
 ### 错误修复
 
 - docs update and correction ([2408068](https://github.com/bmadcode/BMAD-METHOD/commit/240806888448bb3a42acfd2f209976d489157e21))
-- 文档更新和更正 ([2408068](https://github.com/bmadcode/BMAD-METHOD/commit/240806888448bb3a42acfd2f209976d489157e21))
+
+  文档更新和更正 ([2408068](https://github.com/bmadcode/BMAD-METHOD/commit/240806888448bb3a42acfd2f209976d489157e21))
 
 ## [4.19.1](https://github.com/bmadcode/BMAD-METHOD/compare/v4.19.0...v4.19.1) (2025-06-28)
 
@@ -469,7 +533,8 @@
 ### 错误修复
 
 - discord link ([2ea806b](https://github.com/bmadcode/BMAD-METHOD/commit/2ea806b3af58ad37fcb695146883a9cd3003363d))
-- discord 链接 ([2ea806b](https://github.com/bmadcode/BMAD-METHOD/commit/2ea806b3af58ad37fcb695146883a9cd3003363d))
+
+  discord 链接 ([2ea806b](https://github.com/bmadcode/BMAD-METHOD/commit/2ea806b3af58ad37fcb695146883a9cd3003363d))
 
 # [4.19.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.18.0...v4.19.0) (2025-06-28)
 
@@ -477,13 +542,15 @@
 ### 错误修复
 
 - expansion install config ([50d17ed](https://github.com/bmadcode/BMAD-METHOD/commit/50d17ed65d40f6688f3b6e62732fb2280b6b116e))
-- 扩展安装配置 ([50d17ed](https://github.com/bmadcode/BMAD-METHOD/commit/50d17ed65d40f6688f3b6e62732fb2280b6b116e))
+
+  扩展安装配置 ([50d17ed](https://github.com/bmadcode/BMAD-METHOD/commit/50d17ed65d40f6688f3b6e62732fb2280b6b116e))
 
 ### Features
 ### 功能
 
 - install for ide now sets up rules also for expansion agents! ([b82978f](https://github.com/bmadcode/BMAD-METHOD/commit/b82978fd38ea789a799ccc1373cfb61a2001c1e0))
-- ide 安装现在也为扩展代理设置规则！([b82978f](https://github.com/bmadcode/BMAD-METHOD/commit/b82978fd38ea789a799ccc1373cfb61a2001c1e0))
+
+  ide 安装现在也为扩展代理设置规则！([b82978f](https://github.com/bmadcode/BMAD-METHOD/commit/b82978fd38ea789a799ccc1373cfb61a2001c1e0))
 
 # [4.18.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.17.0...v4.18.0) (2025-06-28)
 
@@ -491,7 +558,8 @@
 ### 功能
 
 - expansion teams can now include core agents and include their assets automatically ([c70f1a0](https://github.com/bmadcode/BMAD-METHOD/commit/c70f1a056b0f6e3c805096ee5d27f0a3640fb00c))
-- 扩展团队现在可以包含核心代理并自动包含其资产 ([c70f1a0](https://github.com/bmadcode/BMAD-METHOD/commit/c70f1a056b0f6e3c805096ee5d27f0a3640fb00c))
+
+  扩展团队现在可以包含核心代理并自动包含其资产 ([c70f1a0](https://github.com/bmadcode/BMAD-METHOD/commit/c70f1a056b0f6e3c805096ee5d27f0a3640fb00c))
 
 - remove hardcoding from installer for agents, improve expansion pack installation to its own locations, common files moved to common folder ([95e833b](https://github.com/bmadcode/BMAD-METHOD/commit/95e833beebc3a60f73a7a1c67d534c8eb6bf48fd))
 - 从代理安装程序中删除硬编码，将扩展包安装改进到其自己的位置，将公共文件移动到公共文件夹 ([95e833b](https://github.com/bmadcode/BMAD-METHOD/commit/95e833beebc3a60f73a7a1c67d534c8eb6bf48fd))
@@ -558,7 +626,7 @@
 ### 功能
 
 - **dev-agent:** add quality gates to prevent task completion with failing validations ([#261](https://github.com/bmadcode/BMAD-METHOD/issues/261)) ([45110ff](https://github.com/bmadcode/BMAD-METHOD/commit/45110ffffe6d29cc08e227e22a901892185dfbd2))
-- **dev-agent:** 添加质量门以防止任务因验证失败而完成 ([#261](https://github.com/bmadcode/BMAD-METHOD/issues/261)) ([45110ff](https://github.com/bmadcode/BMAD-METHOD/commit/45110ffffe6d29cc08e227e22a901892185dfbd2))
+- **dev-agent:** 添加质量门禁以防止任务因验证失败而完成 ([#261](https://github.com/bmadcode/BMAD-METHOD/issues/261)) ([45110ff](https://github.com/bmadcode/BMAD-METHOD/commit/45110ffffe6d29cc08e227e22a901892185dfbd2))
 
 # [4.11.0](https://github.com/bmadcode/BMAD-METHOD/compare/v4.10.3...v4.11.0) (2025-06-21)
 

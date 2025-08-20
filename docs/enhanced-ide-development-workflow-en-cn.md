@@ -3,7 +3,7 @@
 
 This is a simple step-by-step guide to help you efficiently manage your development workflow using the BMad Method. The workflow integrates the Test Architect (QA agent) throughout the development lifecycle to ensure quality, prevent regressions, and maintain high standards. Refer to the **[<ins>User Guide</ins>](user-guide.md)** for any scenario that is not covered here.
 
-这是一个简单的分步指南，旨在帮助您使用 BMad 方法高效地管理开发工作流。该工作流在整个开发生命周期中集成了测试架构师（QA 代理），以确保质量、防止回归并维持高标准。如此处未涵盖任何场景，请参阅**[<ins>用户指南</ins>](user-guide.md)**。
+这是一个简单的分步指南，旨在帮助您使用 BMad 方法高效地管理开发工作流。该工作流在整个开发生命周期中集成了测试架构师（QA 代理），以确保质量、防止回归并维持高标准。如此处未涵盖任何场景，请参阅**[<ins>用户指南</ins>](user-guide-en-cn.md)**。
 
 ## Create New Branch
 ## 创建新分支
@@ -162,7 +162,7 @@ The Test Architect (Quinn) provides comprehensive quality assurance throughout t
 ```
 
 ### Stage 3: Story Review (Quality Gate Assessment)
-### 阶段 3：故事审查（质量门评估）
+### 阶段 3：故事审查（质量门禁评估）
 
 **REQUIRED - Comprehensive Test Architecture Review:**
 
@@ -226,7 +226,7 @@ The Test Architect (Quinn) provides comprehensive quality assurance throughout t
 
 4. **Gate Decision**
    
-   **质量门决策**
+   **质量门禁决策**
    - Creates: `docs/qa/gates/{epic}.{story}-{slug}.yml`
 
      创建：`docs/qa/gates/{epic}.{story}-{slug}.yml`
@@ -242,14 +242,14 @@ The Test Architect (Quinn) provides comprehensive quality assurance throughout t
 
 **Update Gate Status After Fixes:**
 
-**修复后更新质量门状态：**
+**修复后更新质量门禁状态：**
 
 ```bash
 # 6. GATE UPDATE (Document final decision)
-# 6. 质量门更新（记录最终决策）
+# 6. 质量门禁更新（记录最终决策）
 @qa *gate {reviewed-story}
 # Updates: Quality gate with new status
-# 更新：带有新状态的质量门
+# 更新：带有新状态的质量门禁
 # Use when: After addressing review feedback
 # 使用时机：处理审查反馈后
 # Documents: What was fixed, what was waived
@@ -257,7 +257,7 @@ The Test Architect (Quinn) provides comprehensive quality assurance throughout t
 ```
 
 ### Understanding Gate Decisions
-### 理解质量门决策
+### 理解质量门禁决策
 
 | **Status**   | **Meaning**                                  | **Action Required**     | **Can Proceed?** |
 | :----------- | :------------------------------------------- | :---------------------- | :--------------- |
@@ -288,7 +288,7 @@ The Test Architect uses risk scoring to prioritize testing:
 | **2-3**        | Low-medium combinations        | P2 - Nice to have         | Note in review           |
 | **1**          | Minimal risk                   | P2 - Minimal              | Note in review           |
 
-| **风险评分** | **计算**                       | **测试优先级**            | **对质量门的影响**       |
+| **风险评分** | **计算**                       | **测试优先级**            | **对质量门禁的影响**       |
 | :----------- | :----------------------------- | :------------------------ | :----------------------- |
 | **9**        | 高概率 × 高影响                | P0 - 必须彻底测试         | 如果未测试则失败         |
 | **6**        | 中高组合                       | P1 - 应良好测试           | 如果有差距则关注         |
@@ -391,7 +391,7 @@ All Test Architect activities create permanent records:
   **评估报告**：在 `docs/qa/assessments/` 中带时间戳的分析
 - **Gate Files**: Decision records in `docs/qa/gates/`
 
-  **质量门文件**：在 `docs/qa/gates/` 中的决策记录
+  **质量门禁文件**：在 `docs/qa/gates/` 中的决策记录
 - **Story Updates**: QA Results sections in story files
 
   **故事更新**：故事文件中的 QA 结果部分
@@ -432,14 +432,14 @@ All Test Architect activities create permanent records:
    **开发**：标记为准备审查
 6. **QA (Required)**: Review story (`*review`) → Gate decision
    
-   **QA（必需）**：审查故事（`*review`）→ 质量门决策
+   **QA（必需）**：审查故事（`*review`）→ 质量门禁决策
 7. **Dev (If needed)**: Address issues
    
    **开发（如果需要）**：解决问题
 8. **QA (If needed)**: Update gate (`*gate`)
    
-   **QA（如果需要）**：更新质量门（`*gate`）
-9.  **Commit**: All changes
+   **QA（如果需要）**：更新质量门禁（`*gate`）
+9. **Commit**: All changes
     
    **提交**：所有变更
 10. **Push**: To remote
@@ -489,7 +489,7 @@ The Test Architect helps achieve:
   测试**100%覆盖需求**
 - **Clear quality gates** for go/no-go decisions
 
-  用于“通过/不通过”决策的**清晰的质量门**
+  用于“通过/不通过”决策的**清晰的质量门禁**
 - **Documented risk acceptance** for technical debt
 
   为技术债务**记录在案的风险接受**

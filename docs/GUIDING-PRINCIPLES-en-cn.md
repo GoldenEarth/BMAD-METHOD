@@ -90,7 +90,7 @@ BMad 方法是一个用于 AI 辅助软件开发的自然语言框架。这些�
 
 See [Expansion Packs Guide](../docs/expansion-packs.md) for detailed examples and ideas.
 
-有关详细示例和想法，请参阅[扩展包指南](../docs/expansion-packs.md)。
+有关详细示例和想法，请参阅[扩展包指南](../docs/expansion-packs-en-cn.md)。
 
 ### Agent Design Rules
 ### 代理设计规则

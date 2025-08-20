@@ -31,8 +31,8 @@ The entire BMad-Method ecosystem is designed around the installed `bmad-core` di
 
 ```mermaid
 graph TD
-    subgraph BMad Method Project <br> BMad 方法项目
-        subgraph Core Framework <br> 核心框架
+    subgraph "BMad Method Project"
+        subgraph "Core Framework 核心框架"
             A["bmad-core"]
             A --> B["agents <br> 代理"]
             A --> C["agent-teams <br> 代理团队"]
@@ -43,25 +43,25 @@ graph TD
             A --> H["data (KB) <br> 数据 (知识库)"]
         end
 
-        subgraph Tooling <br> 工具
+        subgraph "Tooling 工具"
             I["tools/builders/web-builder.js"]
         end
 
-        subgraph Outputs <br> 输出
+        subgraph "Outputs 输出"
             J["dist"]
         end
 
-        B -- defines dependencies for <br> 定义依赖 --> E
-        B -- defines dependencies for <br> 定义依赖 --> F
-        B -- defines dependencies for <br> 定义依赖 --> G
-        B -- defines dependencies for <br> 定义依赖 --> H
+        B -- "defines dependencies for <br> 定义依赖" --> E
+        B -- "defines dependencies for <br> 定义依赖" --> F
+        B -- "defines dependencies for <br> 定义依赖" --> G
+        B -- "defines dependencies for <br> 定义依赖" --> H
 
-        C -- bundles <br> 捆绑 --> B
-        I -- reads from <br> 读取 --> A
-        I -- creates <br> 创建 --> J
+        C -- "bundles <br> 捆绑" --> B
+        I -- "reads from <br> 读取" --> A
+        I -- "creates <br> 创建" --> J
     end
 
-    subgraph Target Environments <br> 目标环境
+    subgraph "Target Environments 目标环境"
         K["IDE (Cursor, VS Code, etc.)"]
         L["Web UI (Gemini, ChatGPT)"]
     end

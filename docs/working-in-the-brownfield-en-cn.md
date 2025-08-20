@@ -57,7 +57,7 @@ If you have just completed an MVP with BMad, and you want to continue with post-
 
 1. **Follow the [<ins>User Guide - Installation</ins>](user-guide.md#installation) steps to setup your agent in the web.**
    
-   **遵循[<ins>用户指南 - 安装</ins>](user-guide.md#installation)中的步骤在 Web 上设置您的代理。**
+   **遵循[<ins>用户指南 - 安装</ins>](user-guide-en-cn.md#installation)中的步骤在 Web 上设置您的代理。**
 2. **Generate a 'flattened' single file of your entire codebase** run: `npx bmad-method flatten`
    
    **生成整个代码库的“扁平化”单文件**，运行：`npx bmad-method flatten`
@@ -115,6 +115,7 @@ If you have just completed an MVP with BMad, and you want to continue with post-
 ```
 
 The PM will:
+
 项目经理（PM）将会：
 
 - **Ask about your enhancement** requirements
@@ -166,6 +167,7 @@ The architect will:
 
   **跳过不相关的区域**以保持文档精简
 - **Generate ONE architecture document** for all environments
+  
   为所有环境**生成一份架构文档**
 
 The architect creates:
@@ -416,9 +418,9 @@ The PO ensures:
 
    (Note: You can optionally prefix with 'brownfield-' if managing multiple versions)
 
-   （注意：如果管理多个版本，您可以选择使用 'brownfield-' 前缀）
+   (注意：如果管理多个版本，您可以选择使用 'brownfield-' 前缀)
 2. Shard your docs:
-3. 
+   
    分片您的文档：
 
    In your IDE
@@ -648,7 +650,7 @@ The Test Architect addresses unique brownfield complexities:
 #   - QA Results in story file
 #     QA 结果在故事文件中
 #   - Gate file: docs/qa/gates/{epic}.{story}-{slug}.yml
-#     质量门文件：docs/qa/gates/{epic}.{story}-{slug}.yml
+#     质量门禁文件：docs/qa/gates/{epic}.{story}-{slug}.yml
 ```
 
 The review specifically analyzes:
@@ -675,14 +677,14 @@ The review specifically analyzes:
   **依赖影响**：映射受影响的下游系统
 
 ##### Stage 4: Post-Review (Gate Updates)
-##### 阶段 4：审查后（质量门更新）
+##### 阶段 4：审查后（质量门禁更新）
 
 ```bash
 # 6. GATE STATUS UPDATE (After addressing issues)
-# 6. 质量门状态更新（解决问题后）
+# 6. 质量门禁状态更新（解决问题后）
 @qa *gate {brownfield-story}
 # Updates: Quality gate decision after fixes
-# 更新：修复后的质量门决策
+# 更新：修复后的质量门禁决策
 # Output: docs/qa/gates/{epic}.{story}-{slug}.yml
 # 输出：docs/qa/gates/{epic}.{story}-{slug}.yml
 # Brownfield Considerations:
@@ -709,7 +711,7 @@ The Test Architect uses enhanced risk scoring for brownfield:
 | **Performance Risk**   | Current load × Added complexity            | Score ≥6 = CONCERNS |
 | **Compatibility Risk** | API consumers × Contract changes           | Score ≥9 = FAIL     |
 
-| **风险类别**       | **棕地因素**                               | **对质量门的影响**  |
+| **风险类别**       | **棕地因素**                               | **对质量门禁的影响**  |
 | :----------------- | :----------------------------------------- | :------------------ |
 | **回归风险**       | 集成点数量 × 代码年龄                      | 分数 ≥9 = 失败      |
 | **数据风险**       | 迁移复杂性 × 数据量                        | 分数 ≥6 = 关注      |
@@ -724,7 +726,8 @@ Quinn enforces additional standards for brownfield:
 Quinn 对棕地项目强制执行额外的标准：
 
 - **Regression Test Coverage**: Every touched legacy module needs tests
-**回归测试覆盖率**：每个接触到的遗留模块都需要测试
+
+  **回归测试覆盖率**：每个接触到的遗留模块都需要测试
 - **Performance Baselines**: Must maintain or improve current metrics
 
   **性能基线**：必须维持或改进当前指标
@@ -771,14 +774,14 @@ Quinn 对棕地项目强制执行额外的标准：
 **特定场景指南：**
 
 1. **Legacy Code Modernization**
-   
+
    **遗留代码现代化**
    - Start with `*risk` to map all dependencies
 
      从 `*risk` 开始，映射所有依赖项
    - Use `*design` to plan strangler fig approach
 
-     使用 `*design` 规划绞杀者无花果（strangler fig）方法
+     使用 `*design` 规划绞杀榕（strangler fig）方法（注：绞杀榕方法核心思想是渐进替换，而非推翻重来）
    - Run `*trace` frequently to ensure nothing breaks
 
      频繁运行 `*trace` 以确保没有东西被破坏
@@ -787,7 +790,7 @@ Quinn 对棕地项目强制执行额外的标准：
      `*review` 专注于逐步迁移
 
 2. **Adding Features to Monolith**
-   
+
    **向单体应用添加功能**
    - `*risk` identifies integration complexity
 
@@ -803,7 +806,7 @@ Quinn 对棕地项目强制执行额外的标准：
      `*review` 验证单体应用性能未下降
 
 3. **Microservice Extraction**
-   
+
    **微服务提取**
    - `*risk` maps service boundaries
 
@@ -819,7 +822,7 @@ Quinn 对棕地项目强制执行额外的标准：
      `*gate` 记录接受的权衡
 
 4. **Database Schema Changes**
-   
+
    **数据库模式变更**
    - `*risk` assesses migration complexity
 
@@ -913,7 +916,7 @@ Document:
      `@qa *design` 规划并行测试方法
 4. Architecture plans gradual transition (strangler fig pattern)
    
-   架构规划逐步过渡（绞杀者无花果模式）
+   架构规划逐步过渡（绞杀榕模式）
 5. Stories follow incremental modernization with:
    
    故事遵循增量现代化，并包含：
@@ -931,7 +934,7 @@ Document:
    **持续验证**：每次增量后运行 `@qa *trace`
 7. **Gate Management**: Use `@qa *gate` to track technical debt acceptance
    
-   **质量门管理**：使用 `@qa *gate` 跟踪技术债务的接受情况
+   **质量门禁管理**：使用 `@qa *gate` 跟踪技术债务的接受情况
 
 ### Scenario 3: Bug Fix in Complex System
 ### 场景 3：复杂系统中的错误修复
@@ -968,7 +971,7 @@ Document:
      非功能性需求评估以验证性能/安全性未改变
    - Gate decision documents fix safety
 
-     质量门决策文档记录修复的安全性
+     质量门禁决策文档记录修复的安全性
 
 ### Scenario 4: API Integration
 ### 场景 4：API 集成
@@ -1020,7 +1023,7 @@ Document:
      `@qa *review` 确保没有破坏性变更
 8. **Gate Decision**: Document any accepted breaking changes with migration path
    
-   **质量门决策**：记录任何已接受的破坏性变更及其迁移路径
+   **质量门禁决策**：记录任何已接受的破坏性变更及其迁移路径
 
 ## Troubleshooting
 ## 故障排除

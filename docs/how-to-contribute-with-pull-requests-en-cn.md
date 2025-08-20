@@ -2,6 +2,7 @@
 # 如何通过拉取请求（Pull Request）进行贡献
 
 **New to GitHub and pull requests?** This guide will walk you through the basics step by step.
+
 **刚接触 GitHub 和拉取请求？** 本指南将带您一步步了解基础知识。
 
 ## What is a Pull Request?

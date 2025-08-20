@@ -126,7 +126,6 @@ npx bmad-method install
 ## 🎯 用户安装
 
 After any release, users can immediately get the new version with:
-
 任何发布后，用户都可以立即通过以下方式获取新版本：
 
 ```bash
@@ -138,7 +137,6 @@ npx bmad-method install    # Always gets latest release
 ## 📊 发布前预览
 
 Always preview what will be included in your release:
-
 始终预览您的发布中将包含的内容：
 
 ```bash
@@ -146,20 +144,18 @@ npm run preview:release
 ```
 
 This shows:
-
 这将显示：
 
 - Commits since last release
-
   自上次发布以来的提交
+
 - Categorized changes
-
   分类后的变更
+
 - Estimated next version
-
   预计的下一个版本
-- Release notes preview
 
+- Release notes preview
   发布说明预览
 
 ## 🔧 Manual Release (GitHub UI)
@@ -169,49 +165,45 @@ You can also trigger releases through GitHub Actions:
 您也可以通过 GitHub Actions 触发发布：
 
 1. Go to **GitHub Actions** → **Manual Release**
-
    转到 **GitHub Actions** → **Manual Release**
+
 2. Click **"Run workflow"**
-
    点击 **"Run workflow"**
+
 3. Choose version bump type (patch/minor/major)
-
    选择版本提升类型 (patch/minor/major)
-4. Everything else happens automatically
 
+4. Everything else happens automatically
    其他一切都会自动发生
 
 ## 📈 Version Strategy
 ## 📈 版本策略
 
 - **Patch** (5.1.0 → 5.1.1): Bug fixes, minor improvements
-
   **补丁** (5.1.0 → 5.1.1): 错误修复，微小改进
+
 - **Minor** (5.1.0 → 5.2.0): New features, enhancements
-
   **次要** (5.1.0 → 5.2.0): 新功能，增强
-- **Major** (5.1.0 → 6.0.0): Breaking changes, major redesigns
 
+- **Major** (5.1.0 → 6.0.0): Breaking changes, major redesigns
   **主要** (5.1.0 → 6.0.0): 破坏性变更，重大重新设计
 
 ## 🛠️ Development Workflow
 ## 🛠️ 开发工作流
 
 1. **Develop Freely** - Merge PRs to main without triggering releases
-
    **自由开发** - 将 PR 合并到 main 分支而不会触发发布
+
 2. **Test Unreleased Changes** - Clone repo to test latest main branch
-
    **测试未发布的变更** - 克隆仓库以测试最新的 main 分支
+
 3. **Release When Ready** - Use command line or GitHub Actions to cut releases
-
    **准备好后发布** - 使用命令行或 GitHub Actions 进行发布
-4. **Users Get Updates** - Via simple `npx bmad-method install` command
 
+4. **Users Get Updates** - Via simple `npx bmad-method install` command
    **用户获取更新** - 通过简单的 `npx bmad-method install` 命令
 
 This gives you complete control over when releases happen while automating all the tedious parts like version bumping, release notes, and publishing.
-
 这使您可以完全控制发布的时机，同时自动化所有繁琐的部分，如版本提升、发布说明和发布。
 
 ## 🔍 Troubleshooting
@@ -238,7 +230,6 @@ npm view bmad-method versions --json
 ### 如果需要版本同步
 
 If your local files don't match the published version after a release:
-
 如果您的本地文件在发布后与已发布的版本不匹配：
 
 ```bash
@@ -250,12 +241,11 @@ If your local files don't match the published version after a release:
 ### 如果发布失败
 
 - Check GitHub Actions logs: `gh run view <run-id> --log-failed`
-
   检查 GitHub Actions 日志：`gh run view <run-id> --log-failed`
+
 - Verify NPM tokens are configured
-
   验证 NPM 令牌是否已配置
+  
 - Ensure branch protection allows workflow pushes
-
   确保分支保护允许工作流推送
 ````
